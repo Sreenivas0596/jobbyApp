@@ -1,0 +1,46 @@
+.hr-line {
+  color: #ffffff;
+  width: 2px;
+  background-color: #ffffff;
+}
+
+.website-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.external-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.external-icon {
+  color: blue;
+  margin-left: 10px;
+}
+
+.desc-link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-jobs-details {
+  background-color: #000000;
+  padding: 10px;
+}
+
+@media screen and (min-width: 577px) {
+  .all-jobs-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+}

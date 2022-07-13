@@ -1,0 +1,31 @@
+.profile-img-url {
+  width: 120px;
+}
+
+.profile-name {
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+
+.short-bio {
+  font-weight: 'Roboto';
+}
+
+.user-profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  display: flex;
+  justify-content: flex-start;
+  background-size: cover;
+  height: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

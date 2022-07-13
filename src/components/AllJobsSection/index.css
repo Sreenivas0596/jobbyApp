@@ -1,0 +1,130 @@
+.all-products-section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-section {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+}
+
+.products-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .products-heading {
+    font-size: 32px;
+  }
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  max-width: 400px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 5px;
+  outline: none;
+  border-width: none;
+  width: 80px;
+  height: 50px;
+}
+
+.input-search-container {
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+  border: 1px;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-color: #ffffff;
+  border-style: solid;
+  height: 40px;
+  width: 100%;
+  max-width: 200px;
+}
+
+@media screen and (max-width: 570px) {
+  .input-search-container {
+    max-width: 400px;
+    display: none;
+  }
+}
+
+.mobile-search-container {
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+  border: 1px;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-right-width: 1px;
+  border-color: #ffffff;
+  border-style: solid;
+  height: 40px;
+  width: 100%;
+  max-width: 200px;
+}
+
+@media screen and (min-width: 550px) {
+  .mobile-search-container {
+    max-width: 400px;
+    display: none;
+  }
+}
+
+.input {
+  border-width: 0px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+.button-search {
+  background-color: transparent;
+  border-color: #ffffff;
+  border-width: 0px;
+}
+
+.search-react {
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+}
+
+.profile-filter-container {
+  margin-right: 50px;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 577px) {
+  .profile-filter-container {
+    min-width: 400px;
+  }
+}

@@ -1,0 +1,12 @@
+.job-container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+  max-width: 1400px;
+  background-color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
